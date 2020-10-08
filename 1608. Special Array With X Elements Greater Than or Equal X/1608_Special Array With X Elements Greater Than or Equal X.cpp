@@ -1,25 +1,22 @@
 class Solution {
 public:
-    int specialArray(vector<int>& nums) {
-        int minvalue = 0;
-        int numValuesGreaterZero = 0;
-        for (const auto& iter: nums)
+    bool isX(const vector<int>& nums, const int X)
+    {
+        int counter = 0;
+        for (size_t i = 0; i < nums.size(); i++)
         {
-          if (iter > 0)
-          {
-            numValuesGreaterZero++;
-            if (0 == minvalue || iter < minvalue)
-              minvalue = iter;
-          }
-          else
-            continue;
+          if (nums[i] >= X)
+            counter++;
         }
-        if (0 == minvalue || 0 == numValuesGreaterZero)
-          return -1;
-
-        if (numValuesGreaterZero <= minvalue)
-          return numValuesGreaterZero;
-        else
-          return -1;
+        return (counter > 0 && counter == X);
+    }
+    
+    int specialArray(vector<int>& nums) {
+        for (size_t i = nums.size(); i>0; i--)
+        {
+          if (isX(nums, i))
+            return i;
+        }
+        return -1;
     }
 };
