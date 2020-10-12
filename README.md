@@ -16,3 +16,6 @@
 
 #### 2020.10.11
   - [x] 4. Median of Two Sorted Arrays ([link on LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/))
+
+#### 2020.10.12
+  - [x] 7. Reverse Integer ([link on LeetCode](https://leetcode.com/problems/reverse-integer/))
