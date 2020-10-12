@@ -19,3 +19,4 @@
 
 #### 2020.10.12
   - [x] 7. Reverse Integer ([link on LeetCode](https://leetcode.com/problems/reverse-integer/))
+  - [x] 88. Merge Sorted Array ([link on LeetCode](https://leetcode.com/problems/merge-sorted-array/))
