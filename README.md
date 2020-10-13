@@ -1,8 +1,8 @@
 ### **Oct 2020**
 
 #### 2020.10.06
-  - [x] 69. Sqrt(x) ([link on LeetCode](https://leetcode.com/problems/sqrtx/))
-  - [x] 704. Binary Search ([link on LeetCode](https://leetcode.com/problems/binary-search/))
+  - [x] [easy] 69. Sqrt(x) ([link on LeetCode](https://leetcode.com/problems/sqrtx/))
+  - [x] [easy] 704. Binary Search ([link on LeetCode](https://leetcode.com/problems/binary-search/))
 
 #### 2020.10.07
   - [x] 1. Two Sum ([link on LeetCode](https://leetcode.com/problems/two-sum/))
@@ -20,3 +20,6 @@
 #### 2020.10.12
   - [x] 7. Reverse Integer ([link on LeetCode](https://leetcode.com/problems/reverse-integer/))
   - [x] 88. Merge Sorted Array ([link on LeetCode](https://leetcode.com/problems/merge-sorted-array/))
+
+#### 2020.10.13
+  - [x] [medium] 34. Find First and Last Position of Element in Sorted Array ([link on LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
