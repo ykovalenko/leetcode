@@ -1,7 +1,77 @@
-class Solution
-{
+class Solution {
 public:
   Solution()
+  {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+  }
+
+  int first_pos(const vector<int>& v, const int target)
+  {
+    int N = v.size();
+    int first = N;
+    int L = 0;
+    int R = N - 1;
+    while (L <= R)
+    {
+      int mid = L + (R - L) / 2;
+      if (v[mid] >= target)
+      {
+        R = mid - 1;
+        first = mid;
+      }
+      else
+      {
+        L = mid + 1;
+      }
+    }
+
+    return first;
+  }
+
+  int last_pos(const vector<int>& v, const int first, const int target)
+  {
+    int N = v.size();
+    int last = N;
+    int L = (first >=0 && first < N) ? (first) : (0);
+    int R = N - 1;
+    while (L <= R)
+    {
+      int mid = L + (R - L) / 2;
+      if (v[mid] <= target)
+      {
+        L = mid + 1;
+        last = mid;
+      }
+      else
+      {
+        R = mid - 1;
+      }
+    }
+
+    if (last >= N)
+      return -1;
+    return last;
+  }
+
+  vector<int> searchRange(vector<int>& nums, int target)
+  {
+    int first = first_pos(nums, target);
+    int last = last_pos(nums, first, target);
+    // int last = first_pos(nums, target +1) - 1;
+
+    if (first <= last)
+      return { first, last };
+    return { -1, -1 };
+  }
+
+};
+
+class Solution_2
+{
+public:
+  Solution_2()
   {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
