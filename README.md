@@ -23,3 +23,6 @@
 
 #### 2020.10.13
   - [x] [medium] 34. Find First and Last Position of Element in Sorted Array ([link on LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
+
+#### 2020.10.27
+  - [x] [easy] 27. Remove Element ([leenk on LeetCode](https://leetcode.com/problems/remove-element/))
