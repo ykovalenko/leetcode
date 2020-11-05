@@ -26,3 +26,6 @@
 
 #### 2020.10.27
   - [x] [easy] 27. Remove Element ([leenk on LeetCode](https://leetcode.com/problems/remove-element/))
+
+#### 2020.11.05
+  - [x] [medium] 413. Arithmetic Slices ([link](https://leetcode.com/problems/arithmetic-slices/))
