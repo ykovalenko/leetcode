@@ -29,3 +29,8 @@
 
 #### 2020.11.05
   - [x] [medium] 413. Arithmetic Slices ([link](https://leetcode.com/problems/arithmetic-slices/))
+
+### **Nov 2020**
+
+#### 2020.11.13
+  - [x] [easy] 83. Remove Duplicates from Sorted List ([link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))
