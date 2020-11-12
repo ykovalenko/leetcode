@@ -34,3 +34,4 @@
 
 #### 2020.11.13
   - [x] [easy] 83. Remove Duplicates from Sorted List ([link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))
+  - [x] [easy] 100. Same Tree ([link](https://leetcode.com/problems/same-tree/))
