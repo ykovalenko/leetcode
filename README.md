@@ -35,3 +35,8 @@
 #### 2020.11.13
   - [x] [easy] 83. Remove Duplicates from Sorted List ([link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))
   - [x] [easy] 100. Same Tree ([link](https://leetcode.com/problems/same-tree/))
+
+### **Mar 2021**
+
+##### 2021.26.03
+  - [x] [easy] 412. Fizz Buzz ([link](https://leetcode.com/problems/fizz-buzz/))
